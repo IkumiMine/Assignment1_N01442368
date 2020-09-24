@@ -13,7 +13,7 @@ namespace Assignment1_N01442368.Controllers
         /// This method returns the square of the integer input{id} when receiving a GET request
         /// <example> GET api/Square/{id} </example>
         /// </summary>
-        /// <param name="id">cat</param>
+        /// <param name="id"></param>
         /// <returns> [ id*id ] </returns>
         public IEnumerable<int> Get(int id)
         {
